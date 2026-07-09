@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#F3F6FB;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+h1,h2,h3{
+    color:#1E3A8A;
+}
+
+button{
+    transition:.3s;
+}
+
+button:hover{
+    transform:translateY(-2px);
+    opacity:.9;
+}
+
+table{
+    border-collapse:collapse;
+}
+
+th{
+    background:#1E3A8A;
+    color:white;
+}
+
+td,th{
+    padding:12px;
+}
+
+input,
+textarea,
+select{
+    border:1px solid #ccc;
+    border-radius:6px;
+    outline:none;
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+    border:1px solid #2563EB;
+}
